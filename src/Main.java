@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        // "Условный оператор.Ч 2."
+        System.out.println("Условный оператор.Ч 2.");
         System.out.println("Задание 1");
 
         int clientOS1 = 1; //Что бы правильно предложить для использования нашего продукта просим вас ответить
