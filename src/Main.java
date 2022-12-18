@@ -31,9 +31,8 @@ public class Main {
 
         System.out.println("Задание 4");
 
-        int deliveryDistance = 95;
-        deliveryDistance = deliveryDistance / 20;
-        int deliveryTime = deliveryDistance;
+        int deliveryDistance = 60;
+        int deliveryTime = deliveryDistance/20;
         System.out.println("Потребуется дней: " + deliveryTime);
 
 
