@@ -31,8 +31,10 @@ public class Main {
 
         System.out.println("Задание 4");
 
-        int deliveryDistance = 60;
-        int deliveryTime = deliveryDistance/20;
+        int deliveryDistance = 160;
+        int deliveryDistanceOneDey = 20;
+        int deliveryDistanceNextDays = 40;
+        int deliveryTime = (deliveryDistance-deliveryDistanceOneDey)/deliveryDistanceNextDays+1;
         System.out.println("Потребуется дней: " + deliveryTime);
 
 
